@@ -2,7 +2,7 @@
   position: relative;
   background-color: #f7f7f7;
   padding: 20px;
-  max-width: 670px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -39,12 +39,16 @@
 .embla__slide__inner {
   position: relative;
   overflow: hidden;
-  height: 590px;
+  height: 80vh;
 }
 
 .embla__slide__img {
   position: absolute;
   display: block;
+}
+
+img {
+  height: inherit;
 }
 
 .embla__button {
